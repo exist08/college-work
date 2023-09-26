@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+// #include<stdio.h>
+
+void main(){
+    int n;
+    cout<<"Star Pattern for : ";
+    cin>>n;
+    for(int i=n;i>0;i--){
+        for(int j=n;j>=i;j--){
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+}

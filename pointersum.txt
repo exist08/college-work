@@ -1,0 +1,11 @@
+#include<iostream.h>
+#include<conio.h>
+// #include<stdio.h>
+
+void main(){
+    int num1=20,num2=40;
+    int *ptr1,*ptr2;
+    ptr1=&num1;
+    ptr2=&num2;
+    cout<<*ptr1+*ptr2;
+}
